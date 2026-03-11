@@ -9,7 +9,7 @@ description = "Live Rich-rendered step trees in pytest terminal output"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
-authors = [{ name = "Ayoub", email = "" }]
+authors = [{ name = "Ayoub", email = "ayoubebounaga@gmail.com" }]
 keywords = ["pytest", "plugin", "allure", "rich", "steps", "logging", "xdist"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -41,9 +41,9 @@ all    = [
 ]
 
 [project.urls]
-"Homepage"     = "https://github.com/ayoub/pytest-step-logger"
-"Bug Tracker"  = "https://github.com/ayoub/pytest-step-logger/issues"
-"Changelog"    = "https://github.com/ayoub/pytest-step-logger/blob/main/CHANGELOG.md"
+"Homepage"     = "https://github.com/Slaaayer/pytest-step-logger"
+"Bug Tracker"  = "https://github.com/Slaaayer/pytest-step-logger/issues"
+"Changelog"    = "https://github.com/Slaaayer/pytest-step-logger/blob/main/CHANGELOG.md"
 
 [project.entry-points.pytest11]
 step_logger = "pytest_step_logger.plugin"
